@@ -1,4 +1,7 @@
 {
   "name": "perf",
-  "packageManager": "yarn@4.4.1"
+  "packageManager": "yarn@4.4.1",
+  "devDependencies": {
+    "perf_hooks": "^0.0.1"
+  }
 }

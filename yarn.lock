@@ -8,5 +8,14 @@ __metadata:
 "perf@workspace:.":
   version: 0.0.0-use.local
   resolution: "perf@workspace:."
+  dependencies:
+    perf_hooks: "npm:^0.0.1"
   languageName: unknown
   linkType: soft
+
+"perf_hooks@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "perf_hooks@npm:0.0.1"
+  checksum: 10c0/8e9f46c29ad467a19a8822783b8c18a9ec28d7842282912be3e98a8d8b6f9ad88fa48798b03f6d21bc51fe6ccb110de9ccdf8f9fa9da5eb3d836c03a2d399d31
+  languageName: node
+  linkType: hard
